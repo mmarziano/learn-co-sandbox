@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "codehelper/version"
+require "undercover_tourist/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "codehelper"
-  spec.version       = Codehelper::VERSION
+  spec.name          = "undercover_tourist"
+  spec.version       = UndercoverTourist::VERSION
   spec.authors       = ["'Monica Marziano'"]
   spec.email         = ["'mmarziano1@gmail.com'"]
 
